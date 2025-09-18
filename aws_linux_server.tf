@@ -10,4 +10,5 @@ resource "aws_instance" "linux_vm" {
   tags = {
     Name = "aws-linux-Server"
   }
+  
 }
